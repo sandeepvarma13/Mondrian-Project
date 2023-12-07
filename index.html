@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>mondrian project 2</title>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+            }
+            .container{
+                width: 648px;
+                height: 748px;
+                display: grid;
+                background-color: #000;
+                grid-template-columns: 428px 211px;
+                grid-template-rows: 280px 220px 230px;
+                gap:9px;
+            }
+           
+            .item{
+                background-color:#F0F1EC ;
+            }
+            .yellow{
+                background-color: #F9D01E ;
+            }
+            .white-2{
+               grid-row:span 2 ;
+            }
+            .blue{
+                background-color:#004592 ;
+                border-bottom: 10px solid #000;
+            }
+
+
+        </style>
+        </head>
+        <body>
+            <div class="container">
+                <div class="item yellow"></div>
+                <div class="item white-1"></div>
+                <div class="item white-2"></div>
+                <div class="item blue"></div>
+                <div class="item"></div>
+            </div>
+        </body>
+</html>
